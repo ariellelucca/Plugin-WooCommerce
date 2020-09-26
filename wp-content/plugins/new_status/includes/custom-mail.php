@@ -22,7 +22,7 @@ class WC_Expedited_Order_Email extends WC_Email {
         $this->subject = 'Expedited Order';
 
         // Define os layouts de envio de email
-        $this->template_html  = 'emails/admin-new-order.php';
+        $this->template_html  = 'emails/customer-expedited-order.php';
         $this->template_plain = 'emails/plain/admin-new-order.php';
 
         // Define o email do cliente como verdadeiro

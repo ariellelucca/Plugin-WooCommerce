@@ -26,7 +26,7 @@ do_action( 'woocommerce_email_header', $email_heading, $email ); ?>
 
 <?php /* translators: %s: Customer first name */ ?>
 <p><?php printf( esc_html__( 'Hi %s,', 'woocommerce' ), esc_html( $order->get_billing_first_name() ) ); ?></p>
-<p><?php esc_html_e( 'Your order has been expedited.', 'woocommerce' ); ?></p>
+<p><?php printf( esc_html__( 'Your order has been expedited.', 'woocommerce' ) ) ?></p>
 <?php
 
 /*
