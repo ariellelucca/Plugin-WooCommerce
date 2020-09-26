@@ -1,0 +1,4 @@
+2020-09-26T03:58:25+00:00 CRITICAL syntax error, unexpected 'add_filter' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\includes\custom-mail.php on line 51
+
+2020-09-26T03:59:02+00:00 CRITICAL syntax error, unexpected 'add_filter' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\includes\custom-mail.php on line 51
+

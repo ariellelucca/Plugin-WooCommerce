@@ -4,3 +4,237 @@
 
 2020-09-25T16:38:40+00:00 CRITICAL syntax error, unexpected 'return' (T_RETURN), expecting '{' in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php on line 29
 
+2020-09-25T17:11:39+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\Plugin WooCommerce\wp-content\themes\storefront\woocommerce\myaccount\view-order.php on line 27
+
+2020-09-25T17:31:01+00:00 CRITICAL Uncaught Error: Call to a member function get_status() on bool in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php:70
+Stack trace:
+#0 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\shortcodes.php(343): show_status(Array, '', 'shortcode_statu...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(shortc...', 'do_shortcode_ta...', '[shortcode_stat...')
+#3 C:\xampp\htdocs\Plugin WooCommerce\wp-content\themes\storefront\woocommerce\myaccount\view-order.php(35): do_shortcode('[shortcode_stat...')
+#4 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(151): wc_get_template('myaccount/view-...', Array)
+#6 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-templa in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php on line 70
+
+2020-09-25T17:31:29+00:00 CRITICAL Uncaught Error: Call to a member function get_status() on bool in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php:71
+Stack trace:
+#0 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\shortcodes.php(343): show_status(Array, '', 'shortcode_statu...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(shortc...', 'do_shortcode_ta...', '[shortcode_stat...')
+#3 C:\xampp\htdocs\Plugin WooCommerce\wp-content\themes\storefront\woocommerce\myaccount\view-order.php(35): do_shortcode('[shortcode_stat...')
+#4 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(151): wc_get_template('myaccount/view-...', Array)
+#6 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-templa in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php on line 71
+
+2020-09-25T17:32:04+00:00 CRITICAL Uncaught Error: Call to undefined function var_dup() in C:\xampp\htdocs\Plugin WooCommerce\wp-content\themes\storefront\woocommerce\myaccount\view-order.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include()
+#1 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(151): wc_get_template('myaccount/view-...', Array)
+#2 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-template-functions.php(3139): WC_Shortcode_My_Account::view_order(12)
+#3 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\class-wp-hook.php(287): woocommerce_account_view_order('12')
+#4 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-template-function in C:\xampp\htdocs\Plugin WooCommerce\wp-content\themes\storefront\woocommerce\myaccount\view-order.php on line 24
+
+2020-09-25T17:32:10+00:00 CRITICAL Uncaught Error: Call to a member function get_status() on bool in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php:71
+Stack trace:
+#0 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\shortcodes.php(343): show_status(Array, '', 'shortcode_statu...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(shortc...', 'do_shortcode_ta...', '[shortcode_stat...')
+#3 C:\xampp\htdocs\Plugin WooCommerce\wp-content\themes\storefront\woocommerce\myaccount\view-order.php(37): do_shortcode('[shortcode_stat...')
+#4 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(151): wc_get_template('myaccount/view-...', Array)
+#6 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-templa in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php on line 71
+
+2020-09-25T17:32:14+00:00 CRITICAL Uncaught Error: Call to a member function get_status() on bool in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php:71
+Stack trace:
+#0 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\shortcodes.php(343): show_status(Array, '', 'shortcode_statu...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(shortc...', 'do_shortcode_ta...', '[shortcode_stat...')
+#3 C:\xampp\htdocs\Plugin WooCommerce\wp-content\themes\storefront\woocommerce\myaccount\view-order.php(37): do_shortcode('[shortcode_stat...')
+#4 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(151): wc_get_template('myaccount/view-...', Array)
+#6 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-templa in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php on line 71
+
+2020-09-25T17:32:58+00:00 CRITICAL Uncaught Error: Call to a member function get_status() on bool in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php:71
+Stack trace:
+#0 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\shortcodes.php(343): show_status(Array, '', 'shortcode_statu...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(shortc...', 'do_shortcode_ta...', '[shortcode_stat...')
+#3 C:\xampp\htdocs\Plugin WooCommerce\wp-content\themes\storefront\woocommerce\myaccount\view-order.php(36): do_shortcode('[shortcode_stat...')
+#4 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(151): wc_get_template('myaccount/view-...', Array)
+#6 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-templa in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php on line 71
+
+2020-09-25T17:33:20+00:00 CRITICAL Uncaught Error: Call to a member function get_status() on array in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php:69
+Stack trace:
+#0 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\shortcodes.php(343): show_status(Array, '', 'shortcode_statu...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(shortc...', 'do_shortcode_ta...', '[shortcode_stat...')
+#3 C:\xampp\htdocs\Plugin WooCommerce\wp-content\themes\storefront\woocommerce\myaccount\view-order.php(36): do_shortcode('[shortcode_stat...')
+#4 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(151): wc_get_template('myaccount/view-...', Array)
+#6 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-templ in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php on line 69
+
+2020-09-25T17:33:33+00:00 CRITICAL Uncaught Error: Call to a member function get_status() on array in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php:69
+Stack trace:
+#0 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\shortcodes.php(343): show_status(Array, '', 'shortcode_statu...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(shortc...', 'do_shortcode_ta...', '[shortcode_stat...')
+#3 C:\xampp\htdocs\Plugin WooCommerce\wp-content\themes\storefront\woocommerce\myaccount\view-order.php(36): do_shortcode('[shortcode_stat...')
+#4 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(151): wc_get_template('myaccount/view-...', Array)
+#6 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-templ in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php on line 69
+
+2020-09-25T17:33:56+00:00 CRITICAL Uncaught Error: Call to a member function get_status() on bool in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php:71
+Stack trace:
+#0 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\shortcodes.php(343): show_status(Array, '', 'shortcode_statu...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(shortc...', 'do_shortcode_ta...', '[shortcode_stat...')
+#3 C:\xampp\htdocs\Plugin WooCommerce\wp-content\themes\storefront\woocommerce\myaccount\view-order.php(36): do_shortcode('[shortcode_stat...')
+#4 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(151): wc_get_template('myaccount/view-...', Array)
+#6 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-templa in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php on line 71
+
+2020-09-25T17:34:39+00:00 CRITICAL Uncaught Error: Call to a member function get_status() on bool in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php:71
+Stack trace:
+#0 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\shortcodes.php(343): show_status(Array, '', 'shortcode_statu...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(shortc...', 'do_shortcode_ta...', '[shortcode_stat...')
+#3 C:\xampp\htdocs\Plugin WooCommerce\wp-content\themes\storefront\woocommerce\myaccount\view-order.php(36): do_shortcode('[shortcode_stat...')
+#4 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(151): wc_get_template('myaccount/view-...', Array)
+#6 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-templa in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php on line 71
+
+2020-09-25T17:34:41+00:00 CRITICAL Uncaught Error: Call to a member function get_status() on bool in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php:71
+Stack trace:
+#0 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\shortcodes.php(343): show_status(Array, '', 'shortcode_statu...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(shortc...', 'do_shortcode_ta...', '[shortcode_stat...')
+#3 C:\xampp\htdocs\Plugin WooCommerce\wp-content\themes\storefront\woocommerce\myaccount\view-order.php(36): do_shortcode('[shortcode_stat...')
+#4 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(151): wc_get_template('myaccount/view-...', Array)
+#6 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-templa in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php on line 71
+
+2020-09-25T17:37:24+00:00 CRITICAL Uncaught Error: Call to a member function get_status() on bool in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php:71
+Stack trace:
+#0 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\shortcodes.php(343): show_status(Array, '', 'shortcode_statu...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(shortc...', 'do_shortcode_ta...', '[shortcode_stat...')
+#3 C:\xampp\htdocs\Plugin WooCommerce\wp-content\themes\storefront\woocommerce\myaccount\view-order.php(36): do_shortcode('[shortcode_stat...')
+#4 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(151): wc_get_template('myaccount/view-...', Array)
+#6 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-templa in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php on line 71
+
+2020-09-25T17:37:28+00:00 CRITICAL Uncaught Error: Call to a member function get_status() on bool in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php:71
+Stack trace:
+#0 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\shortcodes.php(343): show_status(Array, '', 'shortcode_statu...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(shortc...', 'do_shortcode_ta...', '[shortcode_stat...')
+#3 C:\xampp\htdocs\Plugin WooCommerce\wp-content\themes\storefront\woocommerce\myaccount\view-order.php(36): do_shortcode('[shortcode_stat...')
+#4 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(151): wc_get_template('myaccount/view-...', Array)
+#6 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-templa in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php on line 71
+
+2020-09-25T17:37:47+00:00 CRITICAL Uncaught Error: Call to a member function get_status() on bool in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php:71
+Stack trace:
+#0 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\shortcodes.php(343): show_status(Array, '', 'shortcode_statu...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(shortc...', 'do_shortcode_ta...', '[shortcode_stat...')
+#3 C:\xampp\htdocs\Plugin WooCommerce\wp-content\themes\storefront\woocommerce\myaccount\view-order.php(36): do_shortcode('[shortcode_stat...')
+#4 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(151): wc_get_template('myaccount/view-...', Array)
+#6 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-templa in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php on line 71
+
+2020-09-25T17:39:49+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\Plugin WooCommerce\wp-content\themes\storefront\woocommerce\myaccount\view-order.php on line 36
+
+2020-09-25T17:40:04+00:00 CRITICAL Uncaught Error: Call to a member function get_status() on bool in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php:71
+Stack trace:
+#0 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\shortcodes.php(343): show_status(Array, '', 'shortcode_statu...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(shortc...', 'do_shortcode_ta...', '[shortcode_stat...')
+#3 C:\xampp\htdocs\Plugin WooCommerce\wp-content\themes\storefront\woocommerce\myaccount\view-order.php(36): do_shortcode('[shortcode_stat...')
+#4 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(151): wc_get_template('myaccount/view-...', Array)
+#6 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-templa in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php on line 71
+
+2020-09-25T17:40:54+00:00 CRITICAL Uncaught Error: Call to a member function get_status() on bool in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php:71
+Stack trace:
+#0 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\shortcodes.php(343): show_status(Array, '', 'shortcode_statu...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(shortc...', 'do_shortcode_ta...', '[shortcode_stat...')
+#3 C:\xampp\htdocs\Plugin WooCommerce\wp-content\themes\storefront\woocommerce\myaccount\view-order.php(36): do_shortcode('[shortcode_stat...')
+#4 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(151): wc_get_template('myaccount/view-...', Array)
+#6 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-templa in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php on line 71
+
+2020-09-25T17:41:24+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php:50
+Stack trace:
+#0 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\shortcodes.php(343): show_status(Array, '', 'shortcode_statu...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(shortc...', 'do_shortcode_ta...', '[shortcode_stat...')
+#3 C:\xampp\htdocs\Plugin WooCommerce\wp-content\themes\storefront\woocommerce\myaccount\view-order.php(36): do_shortcode('[shortcode_stat...')
+#4 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(151): wc_get_template('myaccount/view-...', Array)
+#6 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-template-f in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php on line 50
+
+2020-09-25T17:42:10+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php:52
+Stack trace:
+#0 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\shortcodes.php(343): show_status(Array, '', 'shortcode_statu...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(shortc...', 'do_shortcode_ta...', '[shortcode_stat...')
+#3 C:\xampp\htdocs\Plugin WooCommerce\wp-content\themes\storefront\woocommerce\myaccount\view-order.php(36): do_shortcode('[shortcode_stat...')
+#4 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(151): wc_get_template('myaccount/view-...', Array)
+#6 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-template-f in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php on line 52
+
+2020-09-25T17:42:26+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php:52
+Stack trace:
+#0 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\shortcodes.php(343): show_status(Array, '', 'shortcode_statu...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(shortc...', 'do_shortcode_ta...', '[shortcode_stat...')
+#3 C:\xampp\htdocs\Plugin WooCommerce\wp-content\themes\storefront\woocommerce\myaccount\view-order.php(36): do_shortcode('[shortcode_stat...')
+#4 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(151): wc_get_template('myaccount/view-...', Array)
+#6 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-template-f in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php on line 52
+
+2020-09-25T17:42:34+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php:52
+Stack trace:
+#0 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\shortcodes.php(343): show_status(Array, '', 'shortcode_statu...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(shortc...', 'do_shortcode_ta...', '[shortcode_stat...')
+#3 C:\xampp\htdocs\Plugin WooCommerce\wp-content\themes\storefront\woocommerce\myaccount\view-order.php(36): do_shortcode('[shortcode_stat...')
+#4 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(151): wc_get_template('myaccount/view-...', Array)
+#6 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-template-f in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php on line 52
+
+2020-09-25T17:42:51+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php:52
+Stack trace:
+#0 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\shortcodes.php(343): show_status('12', '', 'shortcode_statu...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(shortc...', 'do_shortcode_ta...', '[shortcode_stat...')
+#3 C:\xampp\htdocs\Plugin WooCommerce\wp-content\themes\storefront\woocommerce\myaccount\view-order.php(36): do_shortcode('[shortcode_stat...')
+#4 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(151): wc_get_template('myaccount/view-...', Array)
+#6 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\wc-template-fu in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php on line 52
+
+2020-09-25T19:53:31+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\includes\custom-mail.php on line 74
+
+2020-09-25T19:53:31+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\includes\custom-mail.php on line 74
+
+2020-09-25T19:53:31+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\includes\custom-mail.php on line 74
+
+2020-09-25T19:53:31+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\includes\custom-mail.php on line 74
+
+2020-09-25T19:53:32+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\includes\custom-mail.php on line 74
+
+2020-09-25T20:11:59+00:00 CRITICAL Uncaught Error: Class 'WC_Expedited_Order_Email' not found in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php:122
+Stack trace:
+#0 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\class-wp-hook.php(287): add_custom_mail_woocommerce(Array)
+#1 C:\xampp\htdocs\Plugin WooCommerce\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\class-wc-emails.php(233): apply_filters('woocommerce_ema...', Array)
+#3 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\class-wc-emails.php(190): WC_Emails->init()
+#4 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\includes\class-wc-emails.php(52): WC_Emails->__construct()
+#5 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\PageController.php(271): WC_Emails::instance()
+#6 C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\PageController in C:\xampp\htdocs\Plugin WooCommerce\wp-content\plugins\new_status\main.php on line 122
+

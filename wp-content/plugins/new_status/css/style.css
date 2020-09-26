@@ -1,0 +1,72 @@
+.round-green{
+    font-size: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: inline-block;
+    border-radius: 30px;
+    margin: 15px;
+    padding: 40px 0px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.round-green span{
+    color: white;
+    font-weight: 800;
+}
+.center{
+    text-align: center;
+}
+
+.order-status {
+    margin-top: 50px;
+    position: relative;
+    margin-bottom: 100px;
+}
+.order-status-timeline {
+    height: 9px;
+    border-radius: 7px;
+    background: #eee;
+}
+.image-order-status.active {
+    box-shadow: 0px 0px 10px 0px #cf7400;
+}
+.image-order-status {
+    border: 1px solid #ddd;
+    padding: 8px;
+    box-shadow: 0px 0px 10px 0px #999;
+    background-color: #2cd9a9;
+    position: absolute;
+    margin-top: -35px;
+    border-radius: 50px;
+}
+.image-order-status .status, .image-order-nokstatus .status {
+    position: absolute;
+    text-shadow: 1px 1px #eee;
+    color: #333;
+    width: 100%;
+    margin-top: 16px;
+    margin-left: auto;
+    left: 0px;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.image-order-status .icon, .image-order-nokstatus .icon {
+    height: 40px;
+    width: 40px;
+    background-size: contain;
+    background-position: no-repeat;
+    padding: 7px;
+}
+
+
+.image-order-nokstatus {
+    border: 1px solid #ddd;
+    padding: 8px;
+    box-shadow: 0px 0px 10px 0px #999;
+    background-color: #dfdfdf;
+    position: absolute;
+    margin-top: -35px;
+    border-radius: 50px;
+}
